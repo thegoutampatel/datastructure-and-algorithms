@@ -42,7 +42,7 @@ const BuyandSell = (price) => {
             max_profit = price[i] - minPrice;
            
         }
-    }
+    } 
     return max_profit;
 }
 
