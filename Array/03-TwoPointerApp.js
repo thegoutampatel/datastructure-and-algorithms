@@ -2,7 +2,7 @@
 // so we have to find out the a+b = 210 
 // and the a and b are the two elements of that arry
 // so we have to find out the output 
-// in very low time complexity so we can going with two pointer approch
+// in very less time complexity so we can going with two pointer approch
 //G: We don't use recursion in this question
 
 const arr = [20,40,60,80,90,120,240];
