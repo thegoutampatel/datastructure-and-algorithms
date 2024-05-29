@@ -9,6 +9,6 @@ def SelectionSort(arr):
 
 
 #driver code 
-arr = [70,50,20,30,90,5,15]
-result = SelectionSort(arr)
+arr = [70,50,20,30,90,5,15] 
+result = SelectionSort(arr)  
 print("The Arry after Selection sort : ",result)
