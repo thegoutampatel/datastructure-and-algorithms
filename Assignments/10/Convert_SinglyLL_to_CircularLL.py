@@ -20,7 +20,7 @@ class LinkedList:
         while temp.nextPtr:
             temp = temp.nextPtr
         
-        temp = self.head
+        temp.nextPtr = self.head
 
 
       ## to detect the loop inside the linked list
@@ -39,7 +39,6 @@ class LinkedList:
     #Printing LL
     def PrintLinkedList(self):
         temp = self.head
-
         while temp:
             print(str(temp.data) + " ", end=" ")
             temp = temp.nextPtr
